@@ -1,2 +1,2 @@
-# pic-edit
-images editor image editor
+#QR-code pic
+images , video , audio , blog , post , all doc  for any link qrcoide gen
