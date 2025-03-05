@@ -1,0 +1,29 @@
+<html>
+<html oncontextmenu="return false" onselectstart="return false" ondragstart="return false" leng="en">
+<head>
+<style>
+
+</style>
+</head>
+<body oncontextmenu="return false">
+
+<script>
+document.addEventListener
+("contextmenu",(event)
+=>{
+event.preventDefault()
+})
+</script>
+
+<script>
+document.addEventListener('copy', function (event) {
+event.clipboardData.setData('text/plain','iam-mad');
+event.preventDefault();
+});
+//key not working//
+document.onkeydown= function(e) {
+return false; };
+</script>
+<H1>error</H1>
+</body>
+</html>
